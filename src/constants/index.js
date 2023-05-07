@@ -1,265 +1,183 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-  } from "../assets";
-  
-  export const navLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
-    {
-      id: "work",
-      title: "Work",
-    },
-    {
-      id: "contact",
-      title: "Contact",
-    },
-  ];
-  
-  const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
-  ];
-  
-  const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
-  ];
-  
-  const experiences = [
-    {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
-  const projects = [
-    {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
-  ];
-  
-  export { services, technologies, experiences, testimonials, projects };
+  mobile,
+  backend,
+  creator,
+  web,
+  all,
+  L,
+  carol,
+  teilor,
+  netflix,
+  carolphoto,
+  vanessaphoto,
+} from '../assets'
+
+export const navLinks = [
+  {
+    id: 'about',
+    title: 'About',
+  },
+  {
+    id: 'work',
+    title: 'Work',
+  },
+  {
+    id: 'contact',
+    title: 'Contact',
+  },
+]
+
+const services = [
+  {
+    title: 'Web Developer',
+    icon: web,
+  },
+  {
+    title: 'Frontend Developer',
+    icon: mobile,
+  },
+  {
+    title: 'Backend Developer',
+    icon: backend,
+  },
+  {
+    title: 'Content Creator',
+    icon: creator,
+  },
+]
+
+const experiences = [
+  {
+    title: 'Fullstack developer',
+    company_name: 'Allstrategy',
+    icon: all,
+    iconBg: '#383E56',
+    date: 'July 2022 - present',
+    points: [
+      'Developing and maintaining web applications using PHP, Zend, HTML, CSS, Javascript, JQuery, and other related technologies.',
+      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+      'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Participating in code reviews and providing constructive feedback to other developers.',
+    ],
+  },
+  {
+    title: 'Frontend Freelancer',
+    company_name: 'SevenTech',
+    icon: L,
+    iconBg: '#E6DEDD',
+    date: 'March 2022 - present',
+    points: [
+      'Developing responsive layouts using technologies such as HTML, CSS, and JavaScript',
+      'Implementing animations and visual effects using libraries like jQuery, GSAP, and CSS3',
+      'Integrating with third-party APIs to obtain dynamic data and content.',
+      'Usability and compatibility testing across different browsers and devices.',
+      'Optimizing site or application performance using techniques such as file minification and asynchronous loading.',
+      'Collaborating with designers and back-end developers to ensure the quality of the final product.',
+      'Researching and implementing new technologies and trends to improve user experience and development efficiency.',
+      'As a freelancer, I am also responsible for managing my own time and projects, communicating with clients, and ensuring the delivery of high-quality results within the established deadlines.',
+    ],
+  },
+]
+
+const testimonials = [
+  {
+    testimonial:
+      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
+    name: 'Sara Lee',
+    designation: 'CFO',
+    company: 'Acme Co',
+    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+  },
+  {
+    testimonial:
+      'Amanda successfully captured the essence of my brand and delivered something beyond my expectations. It was truly an amazing experience.',
+    name: 'Caroline Castro',
+    designation: 'CEO',
+    company: 'Carol Castro MakeUp',
+    image: carolphoto,
+  },
+  {
+    testimonial:
+      "After Amanda optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: 'Vanessa Teilor',
+    designation: 'CTO',
+    company: 'Teilor advocacia',
+    image: vanessaphoto,
+  },
+]
+
+const projects = [
+  {
+    name: 'Carol Castro MakeUp',
+    description:
+      'The website is designed with responsiveness in mind, ensuring a seamless experience across different devices and screen sizes. The visual design not only captures the essence of the clients brand identity but also ensures a consistent and engaging experience for visitors. The project showcases a strong commitment to delivering a high-quality, user-centric website that highlights the makeup artists services and expertise. With a combination of HTML, CSS, and JavaScript libraries, the site incorporates smooth scrolling and captivating image sliders.',
+    tags: [
+      {
+        name: 'HTML',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'CSS',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Javascript',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: carol,
+    source_code_link: 'https://github.com/',
+  },
+  {
+    name: 'Teilor Advocacia',
+    description:
+      'This is responsive website designed to provide a user-friendly experience. With a modern and intuitive design, the site adapts to different devices, ensuring its functionality on all devices. It features clear navigation, relevant content, attractive design, and interactive features. Additionally, the site provides information about the companys services, areas of expertise, team of professionals, and location. Responsiveness and user experience are prioritized in this project, aiming to deliver a positive experience for users interested in the services',
+    tags: [
+      {
+        name: 'HTML',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'CSS',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'JQuery',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Javascript',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: teilor,
+    source_code_link: 'https://github.com/',
+  },
+  {
+    name: 'Netlix clone',
+    description:
+      'NetflixClone is a React-based project that replicates the popular streaming platform Netflix. Developed for learning purposes, it utilizes the "Movie Database" API to provide a wide range of movies and TV shows. The website is designed to be responsive, ensuring a seamless user experience across different devices. Users can create profiles, personalize their preferences, and receive tailored recommendations. NetflixClone demonstrates React skills and showcases the creation of a modern and interactive movie streaming website.',
+    tags: [
+      {
+        name: 'React',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'ApiMovieDatabase',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'HTML',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'CSS',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: netflix,
+    source_code_link: 'https://github.com/',
+  },
+]
+
+export { services, experiences, testimonials, projects }
