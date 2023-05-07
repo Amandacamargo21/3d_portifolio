@@ -6,6 +6,8 @@ import web from './web.png'
 import github from './github.png'
 import menu from './menu.svg'
 import close from './close.svg'
+import link from './link.png'
+import loja from './loja.png'
 
 import all from './company/all.png'
 import L from './company/L.png'
@@ -23,10 +25,12 @@ export {
   mobile,
   web,
   github,
+  link,
   menu,
   close,
   all,
   L,
+  loja,
   carol,
   teilor,
   netflix,

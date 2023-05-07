@@ -5,6 +5,8 @@ import {
   web,
   all,
   L,
+  link,
+  loja,
   carol,
   teilor,
   netflix,
@@ -126,7 +128,9 @@ const projects = [
       },
     ],
     image: carol,
-    source_code_link: 'https://github.com/',
+    source_code_link:
+      'https://github.com/Amandacamargo21/Carol-Castro-MakeUp.git',
+    project_link: 'https://carol-castro-make-up.vercel.app/',
   },
   {
     name: 'Teilor Advocacia',
@@ -151,7 +155,8 @@ const projects = [
       },
     ],
     image: teilor,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/Amandacamargo21/Teilor-Advocacia.git',
+    project_link: 'https://teilor-advocacia.vercel.app/',
   },
   {
     name: 'Netlix clone',
@@ -176,7 +181,31 @@ const projects = [
       },
     ],
     image: netflix,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/Amandacamargo21/Netflix-Clone.git',
+    project_link: 'https://netflix-clone-flame-ten.vercel.app/',
+  },
+  {
+    name: 'Cara Store',
+    description:
+      'This responsive app showcases a visually appealing website design with a stylish header, user-friendly navigation, and adaptability. Key features like free shipping, online ordering, promotions, and 24/7 support are highlighted with icons and descriptions. It presents featured products with images, descriptions, ratings, and prices, allowing users to add items to their cart. Catchy banners promote special offers. Overall, it provides a delightful user experience, engaging users to explore and shop on the website.',
+    tags: [
+      {
+        name: 'HTML',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'CSS/SCSS',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Javascript',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: loja,
+    source_code_link:
+      'https://github.com/Amandacamargo21/LojaOnline--Responsivo-.git',
+    project_link: 'https://loja-online-9wuw.vercel.app/',
   },
 ]
 
