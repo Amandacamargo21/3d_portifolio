@@ -12,9 +12,14 @@ import {
   netflix,
   carolphoto,
   vanessaphoto,
+  publicacoesonline_logo,
 } from '../assets'
 
 export const navLinks = [
+  {
+    id: 'language',
+    title: 'Language',
+  },
   {
     id: 'about',
     title: 'About',
@@ -31,10 +36,6 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Web Developer',
-    icon: web,
-  },
-  {
     title: 'Frontend Developer',
     icon: mobile,
   },
@@ -43,7 +44,7 @@ const services = [
     icon: backend,
   },
   {
-    title: 'Content Creator',
+    title: 'UI/UX Designer',
     icon: creator,
   },
 ]
@@ -51,10 +52,23 @@ const services = [
 const experiences = [
   {
     title: 'Fullstack developer',
+    company_name: 'Publicações Online',
+    icon: publicacoesonline_logo,
+    iconBg: '#383E56',
+    date: 'July 2023 - Present',
+    points: [
+      'Collaborating with cross-functional teams, I develop effective software solutions in Php, Javascript, Html, and CSS.',
+      'I conduct tests to ensure software quality and continuously monitor system integrity',
+      'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Implementing new features, I also maintain code standards for scalability and maintainability while designing scalable architectures for high user volumes',
+    ],
+  },
+  {
+    title: 'Fullstack developer',
     company_name: 'Allstrategy',
     icon: all,
     iconBg: '#383E56',
-    date: 'July 2022 - present',
+    date: 'July 2022 - May 2023',
     points: [
       'Developing and maintaining web applications using PHP, Zend, HTML, CSS, Javascript, JQuery, and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -67,14 +81,13 @@ const experiences = [
     company_name: 'SevenTech',
     icon: L,
     iconBg: '#E6DEDD',
-    date: 'March 2022 - present',
+    date: 'March 2022 - Present',
     points: [
       'Developing responsive layouts using technologies such as HTML, CSS, and JavaScript',
       'Implementing animations and visual effects using libraries like jQuery, GSAP, and CSS3',
       'Integrating with third-party APIs to obtain dynamic data and content.',
       'Usability and compatibility testing across different browsers and devices.',
       'Optimizing site or application performance using techniques such as file minification and asynchronous loading.',
-      'Collaborating with designers and back-end developers to ensure the quality of the final product.',
       'Researching and implementing new technologies and trends to improve user experience and development efficiency.',
       'As a freelancer, I am also responsible for managing my own time and projects, communicating with clients, and ensuring the delivery of high-quality results within the established deadlines.',
     ],

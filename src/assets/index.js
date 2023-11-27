@@ -11,6 +11,7 @@ import loja from './loja.png'
 
 import all from './company/all.png'
 import L from './company/L.png'
+import publicacoesonline_logo from './company/publicacoesonline_logo.jpeg'
 
 import carol from './carol.png'
 import teilor from './teilor.png'
@@ -36,4 +37,5 @@ export {
   netflix,
   carolphoto,
   vanessaphoto,
+  publicacoesonline_logo
 }

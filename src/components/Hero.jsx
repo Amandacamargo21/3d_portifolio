@@ -17,7 +17,18 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Amanda</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3d visuals, user <br className="sm:block hidden"/> interfaces and web applications
+          I am a fullstack developer with <br className="sm:block hidden"/>
+          experience in creating <br className="sm:block hidden"/>
+          attractive and accessible user <br className="sm:block hidden"/>
+          interfaces for web and mobile <br className="sm:block hidden"/>
+          devices. My passion for web <br className="sm:block hidden"/>
+          development started when I <br className="sm:block hidden"/>
+          began learning HTML and CSS <br className="sm:block hidden"/>
+          on my own, and now I am <br className="sm:block hidden"/>
+          constantly seeking to learn new <br className="sm:block hidden"/>
+          technologies to adapt to <br className="sm:block hidden"/>
+          market needs and offer <br className="sm:block hidden"/>
+          applications with everincreasing quality. <br className="sm:block hidden"/>
           </p>
         </div>
       </div>
